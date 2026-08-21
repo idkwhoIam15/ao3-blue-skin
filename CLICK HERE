@@ -1,0 +1,730 @@
+ul.tags li.warnings:first-child:before {
+  content: "Warnings: ";
+  color: #7992b5;
+  font-weight: bold;
+}
+
+li.warnings + li.relationships:before {
+  content: "Relationships: ";
+  color: #7992b5;
+  font-weight: bold;
+}
+
+li.relationships + li.characters:before {
+  content: "Characters: ";
+  color: #7992b5;
+  font-weight: bold;
+}
+
+li.characters + li.freeforms:before {
+  content: "Additional Tags: ";
+  color: #7992b5;
+  font-weight: bold;
+}
+
+li.warnings + li.characters:before {
+  content: "Characters: ";
+  color: #7992b5;
+  font-weight: bold;
+}
+
+li.warnings + li.freeforms:before {
+  content: "Additional Tags: ";
+  color: #7992b5;
+  font-weight: bold;
+}
+
+li.relationships + li.freeforms:before {
+  content: "Additional Tags: ";
+  color: #7992b5;
+  font-weight: bold;
+}
+
+li.relationships a,
+.work .relationship a.tag {
+  background: none;
+}
+
+img.logo {
+  padding: 10px 50px 0px 0px;
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/049/424/688/small_2x/blue-rose-illustration-free-vector.jpg);
+  background-size: 45px;
+  background-repeat: no-repeat;
+  width: 0px;
+  height: 0px;
+}
+
+#footer ul,
+#header .primary a {
+  background: #e1ebf2;
+  box-shadow: none;
+  color:#082d3b;
+}
+
+.index .skins .icon {
+  background: url(https://i.pinimg.com/736x/ea/0b/4d/ea0b4d4bc802fbd32e5b8f1ca6d23dc4.jpg);
+  background-size: cover;
+}
+
+.bookmark .user {
+  background: #fff;
+  box-shadow: 5px 5px 5px #cccccc;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a {
+  background-color: #ACB6DB;
+  padding: 5px 9px;
+  border: 3px solid #D3EAFA;
+  border-radius: 10px;
+  color: #252B34;
+  text-shadow: -1px -1px 0 #fff;
+}
+
+div.comment:nth-child(even),
+li.comment:nth-child(even) {
+  background: #fff;
+}
+
+.comment fieldset {
+  margin: 0;
+  color: #3B4161;
+  box-shadow: 1px 0 5px 2px #ccc;
+}
+
+form dt {
+  background: none;
+}
+
+li.blurb,
+.blurb {
+  display: block;
+  position: relative;
+  clear: left;
+  padding: .429em .75em;
+  overflow: visible;
+  border-radius: 5px;
+  background: #fff;
+  border: 2px solid #fdf5ea;
+}
+
+.autocomplete input,
+.autocomplete .dropdown ul li {
+  display: block;
+}
+
+input,
+textarea {
+  font: 100% lucida grande, lucida sans unicode, Verdana, Helvetica, sans-serif, gnu unifont;
+  width: 100%;
+  border: 1px solid #C6D9F5;
+  box-shadow: inset 0 1px 4px 0px #333;
+  color: #2A2C39;
+}
+
+.draft {
+  border: 2px dashed #9EB0CC;
+  padding: .643em;
+  border-radius: .5em;
+}
+
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #fff;
+  opacity: .95;
+}
+
+.bookmark .user:nth-child(odd) {
+  background-image: url(https://i.pinimg.com/originals/72/3e/82/723e82e602ee94582012c38a09852a28.jpg);
+  background-position: center;
+  background-size: 16em;
+  background-color: #8EB9FF;
+  background-blend-mode: multiply;
+  box-shadow: 5px 5px 5px #D5DCED;
+  color: #fff;
+  font-weight: 700;
+}
+
+.bookmark .user:nth-child(even) {
+  background-image: url(https://i.pinimg.com/736x/5b/60/bc/5b60bc199df2282695c883229b485d45.jpg);
+  background-position: center;
+  background-size: 16em;
+  background-color: #8EB9FF;
+  background-blend-mode: multiply;
+  box-shadow: 5px 5px 5px #D5DCED;
+  color: #fff;
+  font-weight: 700;
+}
+
+#greeting .icon {
+  border: 1px solid #CEDFFB;
+}
+
+#dashboard.own {
+  background: 0 0;
+  border-top: 1vw solid #000;
+  border-bottom: 1vw solid #ECF2FE;
+  opacity: 1;
+  border-radius: .25em;
+}
+
+#header .heading a,
+#header .open a,
+#header fieldset,
+#header form,
+#header p,
+#dashboard a:hover,
+.actions a:hover,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.system .latest h3,
+.system div.news h3,
+.system .tweets h3,
+.required,
+.error,
+a.cloud7,
+a.cloud8 {
+  color: #000;
+}
+
+#greeting img.icon {
+  height: 50px;
+  width: 50px;
+  background-size: 100%;
+}
+
+dl.index dd {
+  width: auto;
+  float: none;
+  clear: right;
+  margin: 0 .25em .643em 2.5em;
+  padding: .375em .15em .15em;
+  overflow: visible;
+  background: floralwhite;
+}
+
+form {
+  clear: right;
+}
+
+form.filters {
+  width: 23%;
+  float: right;
+  background: linear-gradient(to right, #FFFAFA, #E8F4FA);
+  border: 2px solid #ccbda0;
+}
+
+.bookmark .user {
+  border: 10px double white;
+  margin-top: .643em;
+  padding: .429em .75em;
+  overflow: hidden;
+  background: inherit;
+}
+
+.splash .favorite:after {
+  content: "૮꒰ ˶• ༝ •˶꒱ა";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#outer #header .dropdown-menu li:nth-child(odd) a:hover {
+  color: #fff;
+  background: #ABCFED;
+  border: 3px solid #ECF7FF;
+  font-weight: 570;
+  text-shadow: 1px 1px 2px rgb(0 0 0);
+  -webkit-text-stroke: .25px #ffffff;
+}
+
+#outer #header .dropdown-menu li:nth-child(even) a:hover {
+  background-color: #ABCCED;
+  border: 3px solid #ECEFFF;
+  color: #ffffff;
+  font-weight: 570;
+  text-shadow: 1px 1px 2px rgb(0 0 0);
+  -webkit-text-stroke: .25px #ffffff;
+}
+
+#header .menu li {
+  border-bottom: 1px solid transparent;
+  margin: 0 .25em;
+  text-align: left;
+}
+
+#header .menu,
+#small_login {
+  background: transparent;
+  background-size: contain;
+  padding: .25em 0;
+  position: absolute;
+  width: 20em;
+  box-shadow: none;
+}
+
+#greeting p.icon {
+  float: right;
+  height: auto;
+  padding: .429em .125em 0;
+  line-height: 1;
+  width: auto;
+  background: #0D274E;
+}
+
+#greeting::after {
+  background-image: url("https://64.media.tumblr.com/e8ce3c985a0013c92c2de3039851b5d0/1d2bd9074c5d2bd2-9d/s75x75_c1/99731a17f904dcaad4210260b61e47d52e10b922.png");
+  background-size: 25px 20px;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  content: "";
+  position: relative;
+  left: 72px;
+  top: 3px;
+}
+
+#greeting::before {
+  background-image: url("https://64.media.tumblr.com/f8132ceefa125692ad7416822ed05256/044dac458d67aa6f-22/s250x400/1ac0bb86834bab0460f11a5d3d83727fb7d8867e.png");
+  background-size: 25px 20px;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  content: "";
+  position: relative;
+  left: 38px;
+  bottom: -3px;
+}
+
+#outer #header .dropdown-menu li:nth-child(odd) a {
+  background: #1F4870;
+  padding: 5px 9px;
+  border: 3px solid #5C6E8E;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 5px 5px 5px #cccccc;
+}
+
+#outer #header .dropdown-menu li:nth-child(even) a {
+  background-color: #1F4870;
+  padding: 5px 9px;
+  border: 3px solid #5C6E8E;
+  border-radius: 10px;
+  color: #1F4870;
+  text-shadow: -1px -1px 0 #fff;
+  box-shadow: 5px 5px 5px #cccccc;
+}
+
+.splash .module h3:after {
+  font-style: normal;
+  content: " ❀.ೃ࿔*";
+}
+
+#header .user a,
+#small_login .action {
+  background: linear-gradient(to right, #FFFAFA, #E8F4FA);
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 9px;
+  border: 1.6px solid #9BABC7;
+  border-radius: 10px;
+}
+
+#header .user a:after,
+#small_login .action:after {
+  content: " 🎵 ";
+}
+
+.dashboard .own,
+.comment span.unreviewed {
+  background: #fff;
+}
+
+.comment > div.icon {
+  border-bottom-color: #CFE0FC;
+}
+
+.dashboard fieldset {
+  clear: right;
+  background: linear-gradient(to right, #FFFAFA, #E8F4FA);
+}
+
+body,
+th,
+tr:hover,
+col.name,
+fieldset fieldset,
+fieldset dl dl,
+form blockquote.userstuff,
+input:focus,
+select:focus,
+textarea:focus,
+.autocomplete div.dropdown ul,
+#ui-datepicker-div,
+#ibox_wrapper,
+#ibox_content,
+.toggled form,
+.dynamic form,
+.secondary,
+.listbox .index,
+.dashboard .listbox .index,
+.nomination dt {
+  background: #fff;
+  box-shadow: 0px 3px 16px #B9C8EA;
+}
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  display: block;
+  border: 2px solid #B9C8EA;
+  margin: .643em;
+  padding: .643em;
+  box-shadow: inset 1px 0 5px #333;
+}
+
+.listbox .index {
+  width: auto;
+  padding: .643em;
+  float: none;
+  clear: right;
+  box-shadow: none;
+}
+
+.comment .icon .visitor {
+  background: url(https://i.pinimg.com/736x/64/98/66/6498667f199a41766e7a7e71d4a48d1f.jpg);
+  display: block;
+  background-size: contain;
+}
+
+dl.meta {
+  border: 1px solid #AEC6E6;
+  clear: right;
+  padding: 1.286em .75em;
+  position: relative;
+  background: #EDFBFF;
+  overflow: hidden;
+}
+
+#header .primary .menu a {
+  color: #111;
+  background: #A6C5E9;
+  padding: .75em .5em .5em;
+}
+
+li.blurb,
+.blurb {
+  display: block;
+  position: relative;
+  clear: left;
+  padding: .429em .75em;
+  overflow: visible;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.listbox li.blurb,
+.listbox .landmark.heading,
+.listbox .tags .listbox,
+.listbox .lots li,
+.listbox .all li {
+  display: block;
+  border: 2px dotted #EDF0FF;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  clear: right;
+  background: linear-gradient(to right, #ABD6EC, #C7E0ED, #EDF8FF);
+  margin: .643em auto;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(222, 246, 255, 0.2);
+  border: 3px solid #fff;
+}
+
+.comment h4.byline {
+  background: url(https://i.pinimg.com/736x/7e/9a/91/7e9a91f2e3f091777dabf8e4a0ba73a9.jpg);
+  padding: .25em .5em .35em 108px;
+  margin: 0 auto -.25em;
+  background-position: center;
+  background-size: 16em;
+}
+
+.thread .even {
+  background: #ECF9FE;
+  margin: 0;
+}
+
+div.comment,
+li.comment {
+  position: relative;
+  border: 1px solid #96A2C2;
+  overflow: visible;
+  background: #ECF6FE;
+  text-align: start;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.reading h4.viewed {
+  background: #ECF6FF;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid #BFC5E2;
+  color: black;
+  font-size: 1.714em;
+  text-shadow: -1px 0px 0px #DFF0F7;
+  letter-spacing: .03em;
+  -webkit-text-stroke: 0.25px #ABB4CE;
+  font-style: oblique;
+}
+
+#header .heading a {
+  color: #fff;
+  text-shadow: -2px 2px 0 #333;
+  font-style: italics;
+  font-size: 2.314em;
+  line-height: 1.20em;
+}
+
+#header h1 {
+  position: static;
+}
+
+#header h1 .landmark {
+  opacity: 1;
+  font-size: 100%;
+  color: #000;
+  line-height: 1;
+  height: auto;
+  width: auto;
+  display: inline;
+}
+
+#header h1 a span:hover {
+  color: #999;
+}
+
+#header {
+  margin: 0 0 1em;
+  padding: 0;
+  position: relative;
+  background: url(https://img.freepik.com/premium-vector/grunge-floral-frame-with-butterfly-element-design-vector-illustration_108855-3216.jpg);
+  background-size: 390px;
+}
+
+p.muted.notice {
+  display: none;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: none;
+  color: #fff;
+}
+
+.splash .favorite li:nth-of-type(even) a {
+  background: none;
+  color: #fff;
+}
+
+#main {
+  font-size: .875em;
+  line-height: 1.286;
+  margin: auto;
+  background: linear-gradient(to right, #C9E5F2, #DFE7F5, #EDF4F5);
+  min-height: 450px;
+}
+
+#main.dashboard {
+  border: 2px dotted#EDF4FF;
+}
+
+.home .primary .icon::after {
+  background: url(https://wallpapercave.com/wp/wp10524738.jpg);
+  background-size: 120px 120px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  content: "";
+  position: absolute;
+  left: -10.5px;
+  top: -10.5px;
+}
+
+#dashboard a:hover {
+  background: url(https://wallpapercave.com/wp/wp10524738.jpg);
+  background-size: 100px;
+  font-weight: 570;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0 0 0);
+  -webkit-text-stroke: .25px #ffffff;
+  background-color: #CFE9FC;
+  background-blend-mode: hard-light;
+}
+
+#dashboard .current {
+  background: #8AADCA;
+  color: #fff;
+}
+
+#outer.wrapper,
+#inner.wrapper {
+  background: url(https://wallpapercave.com/wp/wp10524738.jpg);
+  background-size: 500px;
+}
+
+#footer,
+a.tag:hover {
+  background: url(https://s3.amazonaws.com/cup-images/ireneknight/large/cup993675_2338.jpg);
+  background-size: 500px;
+  font-weight: 570;
+  color: #213E65;
+  background-color: #C7E0F0;
+  background-blend-mode: hard-light;
+}
+
+#header ul.primary,
+#footer {
+  background: #B7D6E5;
+  background-size: 500px;
+}
+
+.tags a.tag:hover {
+  background: url(https://wallpapercave.com/wp/wp10524738.jpg);
+  background-size: 100px;
+  font-weight: 599;
+  color: white;
+  background-blend-mode: hard-light;
+  text-shadow: 1px 1px 3px rgb(0 0 0);
+  -webkit-text-stroke: .49px #ffffff;
+  background-color: #193D69;
+}
+
+.tags a.tag {
+  color: #000;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+tbody tr,
+thead td,
+#header #small_login,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  background: linear-gradient(to right, #CBE7F8, #ECF7FF);
+  border-color: #fff;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #EDF9FE;
+  color: white;
+}
+
+#footer,
+#footer * {
+  text-shadow: none !important;
+}
+
+#footer h4 {
+  font-weight: 700 !important;
+  color: #2F4C6E !important;
+}
+
+#footer a,
+#footer p,
+#footer li,
+#footer span {
+  font-weight: 700 !important;
+  color: #2F416E !important;
+}
+
+#footer a:visited {
+  color: #5A749B !important;
+}
+
+#footer a:hover {
+  color: #3C5C7F !important;
+  text-decoration: underline;
+}
+
+#footer .actions a,
+#footer .actions a:link,
+#footer .actions a:visited {
+  color: #2F4B6E !important;
+  font-weight: 700 !important;
+  text-shadow: none !important;
+}
+
+#footer .actions a:visited {
+  color: #5A659B !important;
+}
+
+#dashboard,
+#dashboard.own {
+  border-bottom: 10px solid #214065;
+  border-top: 10px solid #214065;
+}
+
+#footer .navigation.actions button,
+#footer .navigation.actions a,
+#footer .navigation.actions li {
+  color: #214065 !important;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  border: 1px solid #C3D4EB;
+}
+
+.actions a:hover {
+  color: #f5f5f5;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background-image: url(https://wallpapercave.com/wp/wp10524738.jpg);
+}
